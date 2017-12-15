@@ -1,0 +1,27 @@
+.bg-primary {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.login-card {
+    width: 500px;
+    position: relative;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px, rgba(0, 0, 0, 0.3) 0px 3px 5px -1px;
+    padding: 30px 20px;
+}
+
+.login h3 {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    margin: 25px;
+}
+
+.txt-primary {
+    color: #2196F3!important;
+}
+
+.text-center {
+    text-align: center;
+}
