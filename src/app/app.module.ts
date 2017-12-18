@@ -4,13 +4,14 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 
-import {  MatCheckboxModule,MatFormFieldModule,MatInputModule} from '@angular/material';
-
+ 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { DashabordComponent } from './components/dashabord/dashabord.component';
 import { HeadersComponent } from './components/headers/headers.component';
-import { routing } from './app.routes';
+import { MaterialModule } from './app.material';
+import { AppRoutingModule } from './app.routes';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
  
  
 
@@ -19,17 +20,16 @@ import { routing } from './app.routes';
     AppComponent,
     LoginComponent,
     DashabordComponent,
-    HeadersComponent
+    HeadersComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
      HttpModule,
-     routing,
-     MatFormFieldModule,
-     MatCheckboxModule,
-     MatInputModule
+     AppRoutingModule,
+     MaterialModule
     
   ],
   providers: [],

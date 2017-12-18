@@ -1,15 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Ubuntu',sans-serif !important;
+}
 body {
     font-size: 15px;
     overflow-x: hidden;
     background-color: rgb(229, 229, 229);
-    font-family: Ubuntu, sans-serif;
-    height: 100%;
-    width: 100%;
+    font-family:'Ubuntu',sans-serif;
+   
 }
-
+.bg-primary {
+    background-color: #2196F3;
+    color: #fff;
+}
 .text-center {
     text-align: center;
 }
+.txt-primary {
+    color: #2196F3!important;
+}
+.text-right {
+    text-align: right;
+}
+.float-right{
+    float: right;
+} 
